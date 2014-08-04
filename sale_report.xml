@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <report auto="False" id="report_sale_order_sba" model="sale.order" name="sale.order.sba"
+                rml="sale_report/report/sale_order_sba.rml" string="Presupuesto / Pedido SBA"
+                usage="default"/>
+
+       <!-- report id="report_account_voucher_print"
+            string="Voucher Print SBA"
+            model="account.voucher"
+            name="voucher.print"
+            rml="sale_report/report/account_voucher_print.rml"
+            auto="False"
+            header = "True"
+            menu="True"/ -->
+
+
+    </data>
+</openerp>
